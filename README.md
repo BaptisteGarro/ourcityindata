@@ -20,3 +20,13 @@ pip install -r requirements.txt
 ```
 
 Now you should be able to run the code in this repository.
+
+## Running the streamlit app
+First make sure that you have activated the virtual environment and have installed all the required packages (see above).
+
+Then in the rootfolder (ourcityindata), run the following command:
+```
+streamlit run src/Interactive_bike_parking.py
+```
+
+This should open a browser window with the map of the analysis, and a selection box that lets you visualise different types of data.

@@ -8,7 +8,7 @@ import streamlit as st
 from streamlit_folium import st_folium
 #import folium
 
-gdf_results = gpd.read_file("bike_locks_analysis.json")
+gdf_results = gpd.read_file("src/bike_locks_analysis.json")
 
 analysis = st.sidebar.selectbox(
     "What analysis do you want to see?",
